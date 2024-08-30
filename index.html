@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Protfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>  
+  <body>
+    <main>
+        <div class="container">
+            <!-- navbar -->
+          <nav>
+            <h1 class="logo">Jotirmoy</h1>
+            <div class="ul"> 
+               <a   class="h3">Home</a>
+               <a   class="h3">About</a>                
+            </div>
+          </nav>
+    
+          <!-- Home -->
+    
+          <div class="home"> 
+            <div class="right">
+                <div class="right-child">
+                    <h2 class="name-parent" >Hey , I'm  </h2>
+                    <h2 class="name" >Jotirmoy Bhowmik </h2>
+                    <h2>I'm a  <span class="typescript" id="element"></span></h2>
+                       
+                </div>
+            </div>
+            <div class="left">
+                <div class="profile"> 
+                </div>
+            </div>
+          </div>
+          <div class="hrr" ></div>
+    
+          
+          <!-- skill -->
+    
+          <section id="about" >
+            <div class="skill-parent">
+                <div class="skill">
+                    <div class="skill-right hidden">
+                        <h1 class="skill-h1">Skill</h1>
+                        <div class="bars-box-1">
+                            <div class="html">
+                                <div class="label">
+                                    
+                                    <h3>HTML</h3>
+                                </div>
+                                <div class="html-bar">
+                                    <div class="html-bar-fill"></div>
+                                </div>
+                                
+                            </div>
+         
+                            <div class="css html">
+                                <div class="label">
+                                    
+                                    <h3>CSS</h3>
+                                </div>
+                                <div class="html-bar">
+                                    <div class="css-bar-fill"></div>
+                                </div>
+                                
+                            </div>
+                            <div class="js html">
+                                <div class="label">
+                                    
+                                    <h3>JAVASCRIPT</h3>
+                                </div>
+                                <div class="html-bar">
+                                    <div class="js-bar-fill"></div>
+                                </div>
+                                
+                            </div>
+                            <div class="css-animation html">
+                                <div class="label">
+                                    
+                                    <h3>CSS ANIMATION</h3>
+                                </div>
+                                <div class="html-bar">
+                                    <div class="cssa-bar-fill"></div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-left hidden">
+                        <h1 class="skill-h1">About</h1>
+                        <div class="text">
+                            <h3>As a front-end developer, I create user interfaces using HTML, CSS, and JavaScript. I ensure seamless and interactive experiences for users, collaborating closely with UI/UX designers to bring their visions to life. My work focuses on making websites visually appealing and functionally robust.</h3>
+                        </div>
+                  </div>
+              </div>
+        
+          </section>
+        
+     
+        </div>
+        <div class="cv">
+            <h1>Download CV</h1>
+            <a  href="assets/jotirmoy.pdf" download="">Download</a>
+        </div>
+          <!-- footer -->
+          <footer>
+            <h3 class="footer-h3"> Copyright © Jotirmoy | All right reserved</h3>
+            <div class="social">
+                <a href="https://www.facebook.com/profile.php?id=100082191162158&mibextid=ZbWKwL"><img src="assets/facebook.svg" width="50" alt=""></a>
+                <a href="https://www.instagram.com/jotirmoy_69?igsh=MXRvOWNxd2dlZzV2"><img src="assets/insta.svg" width="50" target="_blank" alt=""> </a>
+            </div>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    
+          <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+            integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+          ></script>
+          <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+            integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+          ></script>
+          
+    
+          <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+          <script>
+            var typed = new Typed('#element', {
+              strings: ['Frontend Developer', 'Developer',  'Frontend Developer', 'Developer','Frontend Developer', 'Developer',],
+              smartBackspace: true,
+              typeSpeed: 50,
+            });
+          </script>
+          <script src="script.js"></script>
+  </body>
+</html>
